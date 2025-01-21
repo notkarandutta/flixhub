@@ -24,3 +24,7 @@
   overflow: visible;
   text-overflow: unset;
 }
+body{
+  background-color: rgb(33 37 41);
+  height: 100%;
+}

@@ -32,7 +32,7 @@ function App() {
   }, [searchText]);
 
   return (
-    <div className="bg-dark" style={{height:"100%"}}>
+    <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Routes>
         <Route path="/" element={<Home />} />
