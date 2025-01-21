@@ -31,10 +31,10 @@ const MovieView = () => {
                 <img src={imgurl} alt="img.jpg" className="img-thumbnail shadow rounded img-fluid"></img>
             </div>
             <div className="col-md-8">
-                <h2>OVERVEIW</h2>
-                <p className="lead">{movieDetails.overview}</p>
-                <h3 className="d-inline">Release-Date  -</h3>
-                <span className="lead"> {movieDetails.release_date}</span>
+                <h2 className="text-light">OVERVEIW</h2>
+                <p className="lead text-light">{movieDetails.overview}</p>
+                <h3 className="d-inline text-light">Release-Date  -</h3>
+                <span className="lead text-light"> {movieDetails.release_date}</span>
             </div>
         </div>
       </div>
